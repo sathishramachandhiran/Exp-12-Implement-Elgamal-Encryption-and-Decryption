@@ -21,7 +21,7 @@ Step 5:
 The decrypted message is verified to be the same as the original.
 
 # PROGRAM:
-```
+```c
 #include <stdio.h>
 #include <math.h>
 
@@ -41,6 +41,7 @@ long long int modExp(long long int base, long long int exp, long long int mod) {
 int main() {
     long long int p, g, privateKeyA, publicKeyA;
     long long int k, message, c1, c2, decryptedMessage;
+    printf("SUBMITTED BY: SATHISH R-212222100048\n");
 
     // Step 1: Input a large prime number (p) and a generator (g)
     printf("Enter a large prime number (p): ");
@@ -76,7 +77,6 @@ int main() {
 ```
 # OUTPUT:
 
-![Screenshot 2024-10-17 081444](https://github.com/user-attachments/assets/0225193a-8c06-47f4-8fc6-ebb1152438dc)
-
+![out](elg.png)
 # RESULT:
 The program for ElGamal encryption and decryption was executed successfully. Alice and Bob exchanged an encrypted message and verified that the decrypted message matched the original message.
